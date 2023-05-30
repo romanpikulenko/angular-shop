@@ -10,5 +10,8 @@
 		"editor.codeActionsOnSave": {
 			"source.organizeImports": true
 		},
+		"terminal.integrated.env.windows": {
+			"PATH": "./node_modules/.bin:${env:PATH}"
+		},
 	}
 }
